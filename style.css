@@ -1,0 +1,159 @@
+.page-alpukat {
+    background-color: #bee4f9;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.page-alpukat h1 {
+    text-align: center;
+    color: #000a04;
+}
+
+.page-alpukat img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.page-alpukat .foto {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.page-alpukat .foto img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+
+.page-alpukat .promo {
+    background-color: #f0e68c;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.page-alpukat .promo h2,
+.page-alpukat .promo h3 {
+    color: #000000;
+}
+
+.page-alpukat .cod {
+    background-color: #f5f5dc;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.page-alpukat p {
+    justify-content: center;
+    text-align: justify;
+    width: 100%;
+    line-height: 1.6;
+}
+
+.page-alpukat .buah {
+    margin: 20px auto;
+    height: 400px;
+}
+
+.page-burung {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.page-burung #header {
+    background-color: #f38f04;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.page-burung .navigasi ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.page-burung .gambar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.page-burung .gambar img {
+    max-width: 100%;
+    margin: 10px;
+    width: 340px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.page-burung .isi {
+    margin: 20px 0;
+}
+
+.page-burung .isi p:first-child::first-letter {
+    color: blue;
+    float: left;
+    font-size: 40px;
+    line-height: 0.8;
+    padding-right: 3px;
+    padding-top: 2px;
+}
+
+.page-burung #profil,
+.page-burung #berternak {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #e8f5e8;
+}
+
+.page-burung .koleksi {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.page-burung .koleksi img {
+    width: 100%;
+    height: 190px;
+    box-sizing: border-box;
+    object-fit: cover;
+    border: 4px solid white;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px #999;
+}
+
+.page-burung h2,
+.page-burung h3 {
+    text-align: center;
+}
+
+.page-burung .promo {
+    background-color: #f1d8c2;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.page-burung ol {
+    text-align: justify;
+    margin-left: 20px;
+}
+
+@media (max-width: 700px) {
+    .page-burung .koleksi {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
